@@ -12,7 +12,7 @@ git clone https://github.com/Ridge-Sanders/PyCon.git ~/.scripts/PyCon
 Custom commands can be added to the PyCon library as follows:
 
 1. Open the file **'env_vars.py'** and add a new entry to the commands nested dictionary.
-  1. All new command entries need a description key-value pair, and an execution key-value pair that points to the command in the commands.py file.
+    1. All new command entries need a description key-value pair, and an execution key-value pair that points to the command in the commands.py file.
   
 ```python
 #!/usr/bin/python3
@@ -38,7 +38,7 @@ env_vars = {
 ```
 
 2. Open the file **'commands.py'** and add your command function.
-  1. In this current version all command functions require at least one parameter even if it remains unused.
+    1. In this current version all command functions require at least one parameter even if it remains unused.
  
 ```python
 #!/usr/bin/python3

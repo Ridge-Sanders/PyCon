@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import sys
+
 # Help
 def PyCon_Help(var):
     commands = var['commands']
@@ -7,11 +9,10 @@ def PyCon_Help(var):
         description = value['description']
         print(f"  * {command}    : {description}")
 
-
 # Quit
-def PyCon_Quit(var):
+def PyCon_Quit(var: None):
     print("PyCon closed.")
-    exit(0)
+    quit()
 
 
 # Echo
@@ -23,7 +24,7 @@ def PyCon_Echo(var):
 
 
 # Clear
-def PyCon_Clear(var):
+def PyCon_Clear(var: None):
     print("\033\143",end="")
 
 

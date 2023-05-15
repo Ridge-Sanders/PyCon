@@ -5,7 +5,7 @@ _Just a concept I've been working on_
 ## Installation
 
 ```bash
-git clone https://github.com/Ridge-Sanders/PyCon ~/.scripts/PyCon
+git clone https://github.com/Ridge-Sanders/PyCon.git ~/.scripts/PyCon
 ```
 
 ## Configure

@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-import sys
-
 # Help
 def PyCon_Help(var):
     commands = var['commands']
